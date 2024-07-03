@@ -85,7 +85,7 @@ header select:hover {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     background-blend-mode: multiply;
 
 }
@@ -142,6 +142,7 @@ div.wrapped {
     display: flex;
     justify-content: center;
     margin-bottom: 47px;
+    position: relative;
 }
 
 .coralBeach {
@@ -149,12 +150,88 @@ div.wrapped {
     height: 465px;
     border-radius: 12px;
     margin-right: 24px;
+    position: relative;
+    display: inline-flex;
+    flex: 1 1 599px;
 }
 
+.coralBeach img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.box {
+    width: 240px;
+    height: 110px;
+
+}
+
+.box .group {
+    position: absolute;
+    width: 240px;
+    height: 110px;
+    left: 0;
+    bottom: 0;
+}
+
+.box .overlap-group {
+    position: absolute;
+    width: 240px;
+    height: 110px;
+    background-image: url(/img/rectangle-4032.svg);
+    background-size: 100% 100%;
+}
+
+.box .element-per-day {
+    position: absolute;
+    font-family: Inter;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    white-space: nowrap;
+    width: 240px;
+    height: 110px;
+
+}
+
+.box .text-wrapper {
+    /*display: flex;*/
+    position: absolute;
+    font-weight: 800;
+    font-size: 48px;
+
+    width: 142px;
+    height: 56px;
+    left: 49px;
+    top: 44px;
+    /*bottom: 10px;*/
+}
+
+.box .supText {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.box .sbText {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.stars {
+    width: 136px;
+}
 
 .coralBoxText {
-    margin-top: 29.5px;
-    margin-bottom: 29.5px;
+    padding-top: 29.5px;
+    padding-bottom: 29.5px;
+    display: inline-flex;
+    flex: 1 1 calc(100% - 599px - 24px);
+    flex-direction: column;
 }
 
 .coralText {
@@ -191,10 +268,6 @@ div.coralIcons {
     margin-left: 24px;
 }
 
-div.btnGetFree {
-
-}
-
 .btnGetFree {
     background-color: rgba(149, 192, 50, 1);
     border-radius: 12px;
@@ -205,19 +278,26 @@ div.btnGetFree {
     margin-top: 48px;
     padding: 15px 32px 15px 32px;
     border: none;
-    letter-spacing: 0.050em;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    text-transform: uppercase;
 }
 
-.grpVar {
+.btnGetFree:Hover {
+    background-color: rgba(133, 157, 61, 100%);
+}
+
+.grpCheck {
     display: flex;
     font-family: Raleway;
     font-size: 14px;
     font-weight: 600;
     color: #fff;
     justify-content: space-between;
+    padding: 2px 0;
 }
 
-.grpVar p {
+.grpCheck p {
 
     display: inline-flex;
     justify-content: flex-start;
@@ -225,13 +305,16 @@ div.btnGetFree {
     width: 154px;
     height: 28px;
     white-space: break-spaces;
+    letter-spacing: 0.02em;
+    gap: 4px;
+
 }
 
-.grpVar p::before {
+.grpCheck p::before {
     content: '';
     display: inline-block;
     width: 24px;
     height: 24px;
-    background: url("img/CheckRingLight.svg");
-    margin-right: 4px;
+    background: url("img/CheckRingLight.svg") no-repeat center center;
+    flex-shrink: 0;
 }
