@@ -208,7 +208,7 @@ div.btnGetFree {
     letter-spacing: 0.050em;
 }
 
-.grpVar{
+.grpVar {
     display: flex;
     font-family: Raleway;
     font-size: 14px;
@@ -216,7 +216,8 @@ div.btnGetFree {
     color: #fff;
     justify-content: space-between;
 }
-.grpVar p{
+
+.grpVar p {
 
     display: inline-flex;
     justify-content: flex-start;
@@ -225,7 +226,8 @@ div.btnGetFree {
     height: 28px;
     white-space: break-spaces;
 }
-.grpVar p::before{
+
+.grpVar p::before {
     content: '';
     display: inline-block;
     width: 24px;
