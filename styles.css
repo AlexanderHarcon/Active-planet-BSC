@@ -15,7 +15,7 @@ p {
 
 .outer-container {
     display: flex;
-    justify-content: center;
+        justify-content: center;
 }
 
 .inner-container {
@@ -321,10 +321,8 @@ div.coralIcons {
 
 .mapClass {
     display: flex;
-    /*margin: 156px 438px 60px 438px;*/
     margin-top: 156px;
     margin-bottom: 60px;
-    /*margin-left: 438px;*/
     width: 1044px;
     height: 400px;
 }
@@ -377,7 +375,76 @@ div.coralIcons {
     align-items: center;
     justify-content: center;
 }
-.markerPic{
-   /* margin-top: 8px;*/
-   /*margin-bottom: 8px;*/
+
+.priceInclude{
+    background-color: #F2F9FD;
+    padding-bottom: 90px;
+
+}
+.priceText {
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 800;
+    color: #2F3B40;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+    /*margin-left: 843px;*/
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    color: #2F3B40;
+}
+
+.row span{
+    width: 332px;
+    height: 104px;
+    background-color: #ffffff ;
+    /*margin: 24px;*/
+    border-radius: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.row span:hover{
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.row p{
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Raleway;
+    padding-right: 16px;
+
+}
+.row img{
+    margin: 16px;
+}
+
+.row sub{
+    font-size: 12px;
+    font-family: Raleway;
+    font-weight: 400;
+    display: block;
+}
+
+.btnRequest {
+    background-color: rgba(149, 192, 50, 1);
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: Raleway;
+    color: #fff;
+    font-weight: 800;
+    padding: 15px 32px 15px 32px;
+    border: none;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 40px auto 0 auto;
+    display: block;
 }
