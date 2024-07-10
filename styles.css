@@ -213,13 +213,13 @@ div.wrapped {
 .box .supText {
     font-family: Inter;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 26px;
 }
 
 .box .sbText {
     font-family: Inter;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .stars {
@@ -407,7 +407,7 @@ div.coralIcons {
 
 }
 
-.row span {
+.row div {
     width: 332px;
     height: 104px;
     background-color: #ffffff;
@@ -419,7 +419,7 @@ div.coralIcons {
     box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 8%);
 }
 
-.row span:hover {
+.row div:hover {
     transform: scale(1.1);
     transition-duration: 0.2s;
 }
@@ -429,7 +429,6 @@ div.coralIcons {
     font-size: 16px;
     font-family: Raleway;
     padding-right: 16px;
-
 }
 
 .row img {
@@ -437,27 +436,16 @@ div.coralIcons {
 
 }
 
-.row sub {
+.row span {
     font-size: 12px;
     font-family: Raleway;
     font-weight: 400;
     display: block;
 }
 
-.btnRequest {
-    background-color: rgba(149, 192, 50, 1);
-    border-radius: 12px;
-    font-size: 16px;
-    font-family: Raleway;
-    color: #fff;
-    font-weight: 800;
-    padding: 15px 32px 15px 32px;
-    border: none;
-    letter-spacing: 0.02em;
-    cursor: pointer;
-    text-transform: uppercase;
-    margin: 40px auto 0 auto;
+.priceInclude .btnGetFree {
     display: block;
+    margin: 40px auto 0 auto;
 }
 
 .sportStrMain {
@@ -656,4 +644,8 @@ div.coralIcons {
 
 .styledTable tbody tr td:last-child {
 padding-left: 50px;
+}
+
+.aquaVista{
+    background-color: #F2F9FD;
 }
