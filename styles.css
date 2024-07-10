@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 body {
     margin: 0;
     font-family: Inter;
@@ -500,7 +499,6 @@ div.coralIcons {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%);
 }
 
-
 .swimTables {
     width: 1045px;
     height: 378px;
@@ -529,7 +527,6 @@ div.coralIcons {
     font-size: 12px;
     font-weight: 700;
 }
-
 
 .styledTable thead tr th:first-child {
     padding-left: 16px; /* перший елемент у рядку */
@@ -600,7 +597,6 @@ div.coralIcons {
     vertical-align: top;
 }
 
-
 .styledTable tbody tr td ul li::before {
     content: '';
     position: absolute;
@@ -611,7 +607,6 @@ div.coralIcons {
     background-size: contain;
     background-repeat: no-repeat;
 }
-
 
 .styledTable tbody tr td ul li.disableCheck::before {
     content: '';
