@@ -37,7 +37,6 @@ header.wrapped {
     align-items: center;
     justify-content: center;
     height: 68px;
-
 }
 
 header ul {
@@ -45,7 +44,6 @@ header ul {
     list-style-type: none;
     margin-top: 27px;
     padding: 0;
-
 }
 
 .nth-last-child {
@@ -57,12 +55,10 @@ header ul select:last-child {
 }
 
 header a {
-
     color: #fff;
     text-decoration: none;
     marker: none;
     margin-right: 24px;
-
 }
 
 header a:hover {
@@ -87,25 +83,21 @@ header select:hover {
     background-position: center center;
     background-attachment: fixed;
     background-blend-mode: multiply;
-
 }
 
 .breadcrumb {
     list-style: none;
     display: flex;
     padding: 0;
-
     background: none;
     border-radius: 4px;
     font-size: 12px;
     font-family: Inter;
-    /*height: 20px;*/
 }
 
 .breadcrumb li {
     display: flex;
     align-items: center;
-
 }
 
 .breadcrumb li + li::before {
@@ -117,7 +109,6 @@ header select:hover {
 .breadcrumb a {
     text-decoration: none;
     color: #fff;
-
 }
 
 .breadcrumb a:hover {
@@ -126,7 +117,6 @@ header select:hover {
 
 .breadcrumb .active {
     color: rgba(149, 149, 149, 1);
-
 }
 
 div.wrapped {
@@ -135,7 +125,6 @@ div.wrapped {
     align-content: flex-start;
     margin-top: 47px;
     margin-bottom: 47px;
-
 }
 
 .coralBox {
@@ -164,7 +153,6 @@ div.wrapped {
 .box {
     width: 240px;
     height: 110px;
-
 }
 
 .box .group {
@@ -194,20 +182,16 @@ div.wrapped {
     white-space: nowrap;
     width: 240px;
     height: 110px;
-
 }
 
 .box .text-wrapper {
-    /*display: flex;*/
     position: absolute;
     font-weight: 800;
     font-size: 48px;
-
     width: 142px;
     height: 56px;
     left: 49px;
     top: 44px;
-    /*bottom: 10px;*/
 }
 
 .box .supText {
@@ -222,15 +206,13 @@ div.wrapped {
     font-weight: 400;
 }
 
-.stars{
+.stars {
     width: 24px;
     height: 24px;
-    /*fill: rgba(243, 204, 64, 1);*/
     transition: fill 0.3s ease;
 }
 
 .stars:hover {
-
     fill: rgba(243, 204, 64, 1);
 }
 
@@ -252,7 +234,6 @@ div.wrapped {
     margin-bottom: 17px;
     stroke: rgba(0, 0, 0, 1);
     stroke-width: 1px;
-
 }
 
 .coralIcons {
@@ -262,12 +243,10 @@ div.wrapped {
     color: #fff;
     font-weight: 700;
     align-items: center;
-
 }
 
 div.coralIcons {
     display: flex;
-
 }
 
 .pinAlt {
@@ -310,7 +289,6 @@ div.coralIcons {
 }
 
 .grpCheck p {
-
     display: inline-flex;
     justify-content: flex-start;
     align-items: center;
@@ -319,7 +297,6 @@ div.coralIcons {
     white-space: break-spaces;
     letter-spacing: 0.02em;
     gap: 4px;
-
 }
 
 .grpCheck p::before {
@@ -376,7 +353,6 @@ div.coralIcons {
 
 .flipArrow {
     margin: 0 8px;
-
 }
 
 .bottomBorder p {
@@ -395,7 +371,6 @@ div.coralIcons {
 .priceInclude {
     background-color: #F2F9FD;
     padding-bottom: 90px;
-
 }
 
 .priceText {
@@ -406,7 +381,6 @@ div.coralIcons {
     margin-top: 60px;
     margin-bottom: 40px;
     text-align: center;
-    /*margin-left: 843px;*/
 }
 
 .row {
@@ -415,7 +389,6 @@ div.coralIcons {
     justify-content: center;
     gap: 24px;
     color: #2F3B40;
-
 }
 
 .row div {
@@ -444,7 +417,6 @@ div.coralIcons {
 
 .row img {
     margin: 16px;
-
 }
 
 .row span {
@@ -544,7 +516,6 @@ div.coralIcons {
     font-family: Raleway;
     font-size: 12px;
     font-weight: 700;
-
 }
 
 .styledTable thead tr th {
@@ -654,9 +625,9 @@ div.coralIcons {
 }
 
 .styledTable tbody tr td:last-child {
-padding-left: 50px;
+    padding-left: 50px;
 }
 
-.aquaVista{
+.aquaVista {
     background-color: #F2F9FD;
 }
