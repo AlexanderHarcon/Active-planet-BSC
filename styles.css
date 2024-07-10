@@ -222,8 +222,16 @@ div.wrapped {
     font-weight: 400;
 }
 
-.stars {
-    width: 136px;
+.stars{
+    width: 24px;
+    height: 24px;
+    /*fill: rgba(243, 204, 64, 1);*/
+    transition: fill 0.3s ease;
+}
+
+.stars:hover {
+
+    fill: rgba(243, 204, 64, 1);
 }
 
 .coralBoxText {
@@ -242,6 +250,9 @@ div.wrapped {
     font-weight: 900;
     margin-top: 17px;
     margin-bottom: 17px;
+    stroke: rgba(0, 0, 0, 1);
+    stroke-width: 1px;
+
 }
 
 .coralIcons {
@@ -284,7 +295,7 @@ div.coralIcons {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%);
 }
 
-.btnGetFree:Hover {
+.btnGetFree:hover {
     background-color: rgba(133, 157, 61, 100%);
 }
 
