@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 body {
@@ -15,7 +16,7 @@ p {
 
 .outer-container {
     display: flex;
-        justify-content: center;
+    justify-content: center;
 }
 
 .inner-container {
@@ -85,7 +86,6 @@ header select:hover {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    /*min-height: 100vh;*/
     background-blend-mode: multiply;
 
 }
@@ -281,6 +281,7 @@ div.coralIcons {
     letter-spacing: 0.02em;
     cursor: pointer;
     text-transform: uppercase;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%);
 }
 
 .btnGetFree:Hover {
@@ -326,7 +327,8 @@ div.coralIcons {
     width: 1044px;
     height: 400px;
 }
-.mapClass .sectorTwoText{
+
+.mapClass .sectorTwoText {
     padding-left: 24px;
     padding-bottom: 24px;
     padding-top: 73px;
@@ -336,7 +338,7 @@ div.coralIcons {
     color: #2F3B40;
 }
 
-.mapClass .sectorTwoMoreText{
+.mapClass .sectorTwoMoreText {
     padding-left: 24px;
     font-family: Raleway;
     font-size: 16px;
@@ -344,12 +346,13 @@ div.coralIcons {
     color: #637075;
 }
 
-.overlapPic{
+.overlapPic {
     padding: 10px;
     position: relative;
     background: url("img/backPic.png") center center no-repeat;
 }
-.bottomBorder{
+
+.bottomBorder {
     position: absolute;
     width: 579px;
     height: 34px;
@@ -359,11 +362,13 @@ div.coralIcons {
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
 }
-.flipArrow{
+
+.flipArrow {
     margin: 0 8px;
 
 }
-.bottomBorder p{
+
+.bottomBorder p {
     padding: 8px 0;
     width: 100%;
     height: 18px;
@@ -376,11 +381,12 @@ div.coralIcons {
     justify-content: center;
 }
 
-.priceInclude{
+.priceInclude {
     background-color: #F2F9FD;
     padding-bottom: 90px;
 
 }
+
 .priceText {
     font-family: Raleway;
     font-size: 32px;
@@ -392,41 +398,46 @@ div.coralIcons {
     /*margin-left: 843px;*/
 }
 
-.row{
+.row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
     color: #2F3B40;
+
 }
 
-.row span{
+.row span {
     width: 332px;
     height: 104px;
-    background-color: #ffffff ;
+    background-color: #ffffff;
     /*margin: 24px;*/
     border-radius: 12px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 8%);
 }
-.row span:hover{
+
+.row span:hover {
     transform: scale(1.1);
     transition-duration: 0.2s;
 }
 
-.row p{
+.row p {
     font-weight: 600;
     font-size: 16px;
     font-family: Raleway;
     padding-right: 16px;
 
 }
-.row img{
+
+.row img {
     margin: 16px;
+
 }
 
-.row sub{
+.row sub {
     font-size: 12px;
     font-family: Raleway;
     font-weight: 400;
@@ -447,4 +458,202 @@ div.coralIcons {
     text-transform: uppercase;
     margin: 40px auto 0 auto;
     display: block;
+}
+
+.sportStrMain {
+    padding-top: 60px;
+    padding-bottom: 119px;
+}
+
+.sportStructure h3 {
+    font-weight: 800;
+    font-family: Raleway;
+    font-size: 32px;
+    text-align: center;
+}
+
+.sportStructure p {
+    font-weight: 800;
+    font-family: Raleway;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.imgPool {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px; /* Відстань між блоками */
+    flex-direction: column;
+    height: 347px;
+    padding-bottom: 24px;
+}
+
+.imgWrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.imgWrapper img {
+    display: block;
+}
+
+.imgWrapper p {
+    position: absolute;
+    bottom: 8px; /* Відступ від нижнього краю зображення */
+    left: 7px; /* Відступ від лівого краю зображення */
+    margin: 0;
+    padding: 5px 10px;
+    background: #ffffff;
+    color: #333;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Raleway;
+    border-radius: 12px;
+}
+
+.mainPool {
+    width: 511px;
+    height: 347px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%);
+}
+
+.onePool,
+.twoPool,
+.threePool,
+.fourPool {
+    width: 244px;
+    height: 161px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%);
+}
+
+
+.swimTables {
+    width: 1045px;
+    height: 378px;
+    background-color: white;
+    border-radius: 14px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 10%);
+}
+
+.styledTable {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 700;
+
+}
+
+.styledTable thead tr th {
+    text-align: left;
+    border-bottom: 1px solid rgba(211, 211, 211, 1);
+    padding-top: 20px;
+    padding-bottom: 16px;
+    text-align: left;
+    width: 270px;
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+.styledTable thead tr th:first-child {
+    padding-left: 16px; /* перший елемент у рядку */
+    text-align: left;
+}
+
+.styledTable thead tr th:last-child {
+    padding-right: 24px; /* останній елемент у рядку */
+    text-align: right;
+}
+
+.styledTable thead tr th.lineTable {
+    width: 32px;
+}
+
+.styledTable thead tr td {
+    text-align: left;
+    border-bottom: 1px solid rgba(211, 211, 211, 1);
+    padding: 13.75px 0;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.styledTable thead tr td:first-child {
+    padding-left: 36px; /* перший елемент у рядку */
+    text-align: left;
+}
+
+.styledTable thead tr td:last-child {
+    padding-right: 24px; /* останній елемент у рядку */
+    text-align: right;
+    font-weight: 600;
+    font-family: Raleway;
+    font-size: 12px;
+}
+
+.styledTable thead tr td.lineTable {
+    width: 32px;
+    text-align: center;
+}
+
+.styledTable thead tr td img {
+    margin-left: 15px;
+}
+
+.styledTable tbody tr td ul li {
+    font-weight: 500;
+    font-family: Raleway;
+    font-size: 12px;
+    text-align: left;
+    height: 16px;
+    margin-top: 14px;
+}
+
+.styledTable tbody tr td ul li.disableCheck {
+    color: rgba(204, 204, 204, 1);
+}
+
+.styledTable tbody tr td ul {
+    margin: 0;
+    margin-bottom: 24px;
+    position: relative;
+    list-style: none;
+}
+
+.styledTable tbody tr td {
+    vertical-align: top;
+}
+
+
+.styledTable tbody tr td ul li::before {
+    content: '';
+    position: absolute;
+    left: 22px;
+    width: 16px; /* Встановлює ширину зображення */
+    height: 16px; /* Встановлює висоту зображення */
+    background-image: url(img/checkTables.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.styledTable tbody tr td ul li.disableCheck::before {
+    content: '';
+    position: absolute;
+    left: 22px;
+    width: 16px; /* Встановлює ширину зображення */
+    height: 16px; /* Встановлює висоту зображення */
+    background-image: url(img/disableCheck.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.styledTable tbody tr td:last-child {
+padding-left: 50px;
 }
