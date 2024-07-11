@@ -394,7 +394,6 @@ div.coralIcons {
     width: 332px;
     height: 104px;
     background-color: #ffffff;
-    /*margin: 24px;*/
     border-radius: 12px;
     display: flex;
     justify-content: flex-start;
@@ -625,4 +624,93 @@ div.coralIcons {
 
 .aquaVista {
     background-color: #F2F9FD;
+    padding: 60px 0 60px 0;
 }
+
+.albatrossPic {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 4px
+}
+
+.albatrossPic img {
+    display: block;
+}
+
+.mainAlbatros {
+    width: 332px;
+    height: 237px;
+    border-radius: 12px;
+    box-shadow: 0px 28.206804275512695px 33.84816360473633px 0px rgba(0, 0, 0, 10%);
+}
+
+.oneAlbatros,
+.twoAlbatros,
+.threeAlbatros,
+.fourAlbatros {
+    width: 80px;
+    height: 52px;
+    border-radius: 12px;
+    box-shadow: 0px 20.6784725189209px 24.814167022705078px 0px rgba(0, 0, 0, 10%);
+}
+
+.albaImg {
+    width: 332px;
+    height: 293px;
+}
+
+.aquaVista .stars {
+    width: 22px;
+    height: 22px;
+}
+
+.containerAlba {
+    display: flex;
+}
+
+.albaText {
+    margin: 36px 0 24px 35px;
+}
+
+.albaText h3 {
+    color: rgba(47, 59, 64, 1);
+    font-size: 32px;
+    font-family: Raleway;
+    font-weight: 800;
+    margin: 8px 0 24px 0;
+}
+
+.albaText p {
+    color: rgba(99, 112, 117, 1);
+    font-size: 16px;
+    font-family: Raleway;
+    font-weight: 500;
+}
+
+.albaText a {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Raleway;
+    color: rgba(91, 188, 228, 1);
+    outline: none;
+    text-decoration: none;
+    margin-top: 8px;
+    width: 88px;
+    height: 26px;
+    display: flex;
+    align-items: flex-end;
+}
+.aquaVista .swimTables{
+    margin-top: 60px;
+    height: auto;
+}
+
+.swimTables p{
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    color: rgba(47, 59, 64, 1);
+    padding: 31px 0 17px 24px;
+}
+
