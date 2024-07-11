@@ -714,3 +714,53 @@ div.coralIcons {
     padding: 31px 0 17px 24px;
 }
 
+.videoContainer{
+    width: 688px;
+    height: 526px;
+    padding: 80px 178px;
+    display: flex;
+}
+
+.videoContainer video{
+    width: 243px;
+    height: 526px;
+    border-radius: 12px;
+    margin-right: 24px;
+}
+
+.videoText{
+    text-align: center;
+    width: 421px;
+    height: 463px;
+    margin-top: 32px;
+}
+.videoText h3{
+    font-size: 32px;
+    font-family: Raleway;
+    font-weight: 800;
+    color: #2F3B40;
+    padding-bottom: 8px;
+    padding-top: 16px;
+    margin: 0;
+}
+
+.videoText p{
+    font-size: 16px;
+    font-family: Raleway;
+    font-weight: 500;
+    color: #637075;
+    padding-bottom: 24px;
+}
+
+.videoText h2{
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    color: #2F3B40;
+    margin: 24px 0;
+}
+
+.videoText .btnGetFree{
+    margin: 0;
+    box-shadow: none;
+}
