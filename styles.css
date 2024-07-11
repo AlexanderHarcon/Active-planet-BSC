@@ -701,12 +701,13 @@ div.coralIcons {
     display: flex;
     align-items: flex-end;
 }
-.aquaVista .swimTables{
+
+.aquaVista .swimTables {
     margin-top: 60px;
     height: auto;
 }
 
-.swimTables p{
+.swimTables p {
     font-size: 18px;
     font-family: Raleway;
     font-weight: 800;
@@ -714,27 +715,29 @@ div.coralIcons {
     padding: 31px 0 17px 24px;
 }
 
-.videoContainer{
+.videoContainer {
     width: 688px;
     height: 526px;
     padding: 80px 178px;
     display: flex;
 }
 
-.videoContainer video{
+.videoContainer video {
     width: 243px;
     height: 526px;
     border-radius: 12px;
     margin-right: 24px;
 }
 
-.videoText{
+.videoText {
     text-align: center;
     width: 421px;
     height: 463px;
     margin-top: 32px;
+    text-align: -webkit-center;
 }
-.videoText h3{
+
+.videoText h3 {
     font-size: 32px;
     font-family: Raleway;
     font-weight: 800;
@@ -744,7 +747,7 @@ div.coralIcons {
     margin: 0;
 }
 
-.videoText p{
+.videoText p {
     font-size: 16px;
     font-family: Raleway;
     font-weight: 500;
@@ -752,7 +755,15 @@ div.coralIcons {
     padding-bottom: 24px;
 }
 
-.videoText h2{
+.containerLine {
+    width: 2px;
+    height: 80px;
+    background-color: #5BBCE4;
+
+
+}
+
+.videoText h2 {
     font-size: 18px;
     font-family: Raleway;
     font-weight: 800;
@@ -760,7 +771,7 @@ div.coralIcons {
     margin: 24px 0;
 }
 
-.videoText .btnGetFree{
+.videoText .btnGetFree {
     margin: 0;
     box-shadow: none;
 }
