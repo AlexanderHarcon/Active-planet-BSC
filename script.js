@@ -37,7 +37,7 @@ function processWeatherData(data) {
 //carousel
 
 $(document).ready(function () {
-    $('.owl-carousel').owlCarousel({
+    $('.excursions .owl-carousel').owlCarousel({
         loop: true,
         margin: 24,
         nav: true,
@@ -61,3 +61,30 @@ $(document).ready(function () {
         }
     });
 });
+
+$(document).ready(function () {
+    $('.reviews .owl-carousel').owlCarousel({
+        loop: true,
+        margin: 24,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1,
+                nav: true,
+            },
+            400: {
+                items: 2,
+                nav: true,
+            },
+            800: {
+                items: 3,
+                nav: true,
+            },
+            1040: {
+                items: 3,
+                nav: true,
+            }
+        }
+    });
+});
+

@@ -1074,6 +1074,57 @@ button.owl-next span:hover {
     background: #A1BC51;;
 }
 
+.reviews{
+    padding: 60px 0;
+}
 
+.reviews .owl-carousel .owl-nav button.owl-next,
+.reviews .owl-carousel .owl-nav button.owl-prev{
+
+    top: 82px
+}
+
+.reviews h4{
+    margin: 0 0 60px 0;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 800;
+}
+.revBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 332px;
+    height: 152px;
+}
+
+.revBlock p{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.revBlock p:first-child{
+    padding: 6px 12px;
+    background-color: #F39540;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    color: #fff;
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.48px; /*12×0.04 = 0.48px*/
+    text-transform: uppercase;
+}
+
+.revBlock p:last-child{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #5BBCE4;
+    font-size: 14px;
+}
 
 
