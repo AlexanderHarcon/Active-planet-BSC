@@ -33,3 +33,31 @@ function processWeatherData(data) {
 
     monthRow.innerHTML = months.map(month => `<div class="monthItem">${month}</div>`).join('');
 }
+
+//carousel
+
+$(document).ready(function () {
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 24,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1,
+                nav: true,
+            },
+            400: {
+                items: 2,
+                nav: true,
+            },
+            800: {
+                items: 3,
+                nav: true,
+            },
+            1040: {
+                items: 4,
+                nav: true,
+            }
+        }
+    });
+});

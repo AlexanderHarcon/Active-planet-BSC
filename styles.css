@@ -899,7 +899,7 @@ div.coralIcons {
 }
 
 .weatherImg img:last-child {
-    padding: 20px 0 0 0;
+    padding: 22px 0 0 0;
 }
 
 .cityName {
@@ -951,7 +951,128 @@ div.coralIcons {
     align-items: center;
 }
 
+.excursions {
+    background-color: #F2F9FD;
+    padding: 60px 0 50px 0;
+}
 
+.excursions h4{
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0 auto 40px auto;
+    text-align: center;
+
+}
+
+.carouImg img {
+    width: 243px;
+    height: 161px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.carouImg p {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 18px;
+    padding: 8px 0;
+    text-align: center;
+}
+
+.firstChildCaro {
+    padding-bottom: 22px;
+}
+
+.carouImg {
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+.excursionsCarousel {
+    margin: 0 auto 0 auto;
+}
+
+button.owl-prev,
+button.owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #A1BC51;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 18px 26px;
+    cursor: pointer;
+}
+
+button.owl-prev span,
+button.owl-next span {
+    padding: 18px 26px;
+    border-radius: 8px;
+    display: inline-block;
+    width: 14px;
+    height: 29px;
+    background: url("img/vector.svg") no-repeat center center;
+    background-color: #A1BC51;
+    content-visibility: hidden;
+}
+
+button.owl-next span {
+    transform: scale(-1, 1);
+}
+button.owl-prev span:hover,
+button.owl-next span:hover {
+    background-color: rgba(133, 157, 61, 100%);
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: #FFF;
+    border-radius: 8px;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev{
+    margin: -2px;
+    top: 130px
+}
+
+.owl-nav .owl-prev {
+    left: -89px;
+}
+
+.owl-nav .owl-next {
+    right: -89px;
+}
+
+/* Індикатори */
+.owl-dots {
+    text-align: center;
+    margin-top: 32px; /* Зміна відстані від каруселі */
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+.owl-nav button:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Зміна кольору при наведенні */
+}
+
+.owl-nav button:focus {
+    outline: none;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: #d9d9d9;
+    width: 29px;
+    height: 4px;
+    border-radius: 2px;
+    margin: 0;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #A1BC51;;
+}
 
 
 
