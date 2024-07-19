@@ -1209,10 +1209,7 @@ button.owl-next span:hover {
 }
 
 .owl-carousel .owl-item .interestP p:last-child {
-    flex: 1 1 113px;
-    justify-content: center;
     max-width: 113px;
-    display: inline-flex;
 }
 
 .interestedBlockTwo {
